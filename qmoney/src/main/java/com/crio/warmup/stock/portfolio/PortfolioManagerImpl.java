@@ -116,7 +116,7 @@ public class PortfolioManagerImpl implements PortfolioManager {
 
   protected String buildUri(String symbol, LocalDate startDate, LocalDate endDate) {
     String uriTemplate = "https://api.tiingo.com/tiingo/daily/" + symbol + "/prices?" + "startDate=" 
-          + startDate + "&endDate=" + endDate + "&token=38279ba8f3e5e2679d83bf9ed962a63a809aa69c";
+          + startDate + "&endDate=" + endDate + "&token=0ba0dd98f0f2be62c516b14912db9d90b333c6cd";
     return uriTemplate;
   }
 
